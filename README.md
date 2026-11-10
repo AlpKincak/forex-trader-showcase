@@ -8,7 +8,7 @@ The implementation is private. This repository is a technical case study, not a 
 
 ### The observer in practice
 
-<img src="fx-observer-m15-pois.webp" alt="Real FX Observer M15 browser chart showing EUR/USD candles, expanded higher-timeframe and M15 POI zones, and current price" width="100%">
+<img src="assets/screenshots/fx-observer-m15-pois.webp" alt="Real FX Observer M15 browser chart showing EUR/USD candles, expanded higher-timeframe and M15 POI zones, and current price" width="100%">
 
 *Real M15 observer snapshot, with visible POI zones and directional blocking. The chart represents one market state, not an illustrative or completed trade.*
 
@@ -86,7 +86,7 @@ The six named **LTF models** are *not* the six strategy confluences. They are al
 
 ### Actual lower-timeframe model dashboard
 
-<img src="fx-observer-ltf-confirmation-hq.webp" alt="Actual FX Observer LTF Confirmation dashboard showing six change-of-momentum and liquidity-trap model checklists with the current unavailable state" width="800">
+<img src="assets/screenshots/fx-observer-ltf-confirmation-hq.webp" alt="Actual FX Observer LTF Confirmation dashboard showing six change-of-momentum and liquidity-trap model checklists with the current unavailable state" width="800">
 
 *The six LTF confirmation models and their per-model requirements. This particular snapshot has no eligible, mitigated POI, so the displayed model statuses are unavailable—not failed or triggered.*
 
